@@ -24,7 +24,6 @@ try:
 
     browser.find_element_by_xpath("//button[text()='Submit']").click()
 
-
 finally:
     time.sleep(10)
     browser.quit()
